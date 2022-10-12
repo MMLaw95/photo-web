@@ -32,8 +32,14 @@ html {
   --gray-text: #525252;
 }
 
+body {
+  font-family: "Ruhl", sans-serif;
+  animation: opening 1s ease-in-out;
+}
+
 h1 {
   font-size: var(--header1);
+  font-family: "Vibes", sans-serif;
 }
 
 li,
@@ -71,15 +77,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-body {
-  font-family: "Ruhl", sans-serif;
-  animation: opening 1s ease-in-out;
-}
-
-h1 {
-  font-family: "Vibes", sans-serif;
 }
 
 /* Nav Section */
